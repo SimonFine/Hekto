@@ -1,0 +1,1 @@
+export type ProductCategory = "Watches" | "Headphones" | "Laptop" | "Game Console" | "Clothe" | "Jewellery" | "Perfume";

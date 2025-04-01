@@ -1,0 +1,30 @@
+.footer {
+    background-color: var(--color-grey-1);
+}
+
+.top, .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    padding: 10rem var(--left-right-padding);
+    &__contact {
+        width: 30.4rem;
+
+        & > * { margin-bottom: 3.2rem; }
+    }
+
+    &__column {
+
+        & > p:not(:last-child) { margin-bottom: 2.4rem; }
+    }
+}
+
+.bottom {
+    align-items: center;
+    padding: 2rem var(--left-right-padding);
+    background-color: var(--color-grey-2);
+
+    &__icons > img:not(:last-child) { margin-right: 1.6rem; }
+}

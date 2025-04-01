@@ -1,0 +1,36 @@
+@use "../../../styles/typography";
+
+.header-bottom {
+    height: 7.2rem;
+    padding: 0 var(--left-right-padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+    &__logo { margin-right: 8rem; }
+
+    &__buttons {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    &__button {
+        @extend .label-default;
+
+        a { text-decoration: none };
+        
+        &-active {
+            color: var(--color-primary-def);
+            text-decoration: none;
+        }
+    }
+
+    &__button:not(:last-child) { margin-right: 3.2rem; } 
+}
+

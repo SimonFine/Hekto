@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&display=swap');
+
+:root {
+	--color-white: #fff;
+	--color-grey-1: #f8f8fd;
+	--color-grey-2: #e5e0fc;
+	--color-grey-3: #8a8fb9;
+	--color-black: #101750;
+	--color-tertiary: #7e33e0;
+	--color-primary-def: #fb2e86;
+	--color-primary-dark: #f0056a;
+	--color-primary-light: #fc5fa2;
+	--color-secondary-def: #f9ba00;
+	--color-secondary-light: #fff3ce;
+	--color-danger-def: #fb2448;
+	--color-danger-light: #feb9c4;
+	--color-info-def: #603eff;
+	--color-info-light: #ddd6ff;
+	--color-success-def: #0cc562;
+	--color-success-light: #92f2bf;
+	--color-success-dark: #00994c;
+
+    --font-primary: "Lato", sans-serif;
+    --font-secondary: "Josefin Sans", sans-serif;
+
+	--left-right-padding: clamp(2rem, 8vw, 30.4rem);
+
+}
+
+@media (max-width: 1500px) {
+	:root {
+		--left-right-padding: 4rem;
+	}
+}

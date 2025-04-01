@@ -1,0 +1,13 @@
+.latestBlog {
+    text-align: center;
+    padding: 10rem var(--left-right-padding);
+
+    & > h2 { margin-bottom: 7.2rem; }
+}
+
+.blogs {
+    display: flex;
+    width: min-content;
+    gap: 3.2rem;
+    margin: 0 auto;
+}

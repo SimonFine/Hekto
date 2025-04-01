@@ -1,0 +1,59 @@
+.categoryCircle {
+    width: 27.2rem;
+    height: 37.2rem;
+    text-align: center;
+    position: relative;
+    margin-top: 4.8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    transition: transform .3s ease;
+
+    &__imgBackground {
+        width: 27.2rem;
+        height: 27.2rem;
+        border-radius: 50%;
+        position: relative;
+        background-color: var(--color-grey-3);
+        transition-delay: .3s;
+        transition: transform .3s ease;
+    }
+    
+    &__image {
+        width: 27.2rem;
+        height: 27.2rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 3.2rem;
+        transition-delay: .3s;
+        transition: transform .3s ease;
+    }
+
+    & > p { margin-top: 3.2rem; }
+
+    &__button {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        top: 20.3rem;
+        transform: translateX(-50%);
+        left: 50%;
+        transition: opacity .3s ease;
+    }
+
+    &:hover {
+        transform: translateY(-2.4rem);
+    }
+
+    &:hover &__button { 
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &:hover &__image {
+        transform: translate(1rem, -1rem);
+    }
+}
+
+.categoryName {
+    text-transform: capitalize;
+}

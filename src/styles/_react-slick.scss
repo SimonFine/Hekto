@@ -1,0 +1,74 @@
+@use "./mixins" as *;
+
+.slick-dots li {
+    height: 0;
+}
+
+.hero-dots {
+    bottom: 4.4rem;
+}
+  
+.hero-dot {
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid var(--color-primary-def);
+    transform: rotate(45deg);
+
+    &-active {
+        border: 1px solid var(--color-primary-def);
+        background-color: var(--color-primary-def);
+        width: 1.2rem;
+        height: 1.2rem;
+        transform: rotate(45deg);
+    }
+}
+
+.featured-dots {
+    bottom: 0rem;
+}
+  
+.featured-dot {
+    border-radius: 1rem;
+    width: 1.6rem;
+    height: .4rem;
+    background-color: var(--color-primary-light);
+    transition: transform 0.3s ease;
+    position: relative;
+
+    &::before { @include expand-hover-area(.5rem); }
+
+    &-active {
+        border-radius: 1rem;
+        width: 1.6rem;
+        height: .4rem;
+        transform: scaleX(1.5);
+        background-color: var(--color-primary-def);
+
+        &::before { @include expand-hover-area(.5rem); }
+    }
+}
+
+.top-categories-dots {
+    bottom: -6rem;
+}
+  
+.top-categories-dot {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid var(--color-primary-def);
+    background-color: transparent;
+    position: relative;
+
+    &::before { @include expand-hover-area; }
+
+    &-active { 
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        border: 1px solid var(--color-primary-def);
+        background-color: var(--color-primary-def);
+
+        &::before { @include expand-hover-area; }
+    }
+}

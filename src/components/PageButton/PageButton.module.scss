@@ -1,0 +1,14 @@
+.button {
+    cursor: pointer;
+    text-align: center;
+    width: 3.2rem;
+    height: 3.2rem;
+    border: none;
+    background-color: transparent;
+    border-radius: 4px;
+
+    &--active {
+        background-color: var(--color-primary-light);
+        color: white;
+    }
+}

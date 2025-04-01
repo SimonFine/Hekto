@@ -1,0 +1,26 @@
+.newsletter {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 45.7rem;
+
+    &__baner {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    & > h2 {
+        position: absolute;
+        top: 11.2rem;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    &__button {
+        position: absolute;
+        bottom: 11.2rem;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+}

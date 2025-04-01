@@ -1,0 +1,45 @@
+.card {
+    width: 41.6rem;
+    height: 30.4rem;
+    border-radius: .4rem;
+    background: var(--color-white);
+    transition: transform .5s ease;
+    position: relative;
+
+    &__img {
+        display: block;
+        width: 100%;
+        height: 27.2rem;
+        object-fit: cover;
+    }
+
+    &__circleButtons {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        bottom: 3.2rem;
+        left: 0;
+        transition: all 0.2s ease-in-out;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &:hover {
+        & > * { //idk why &__button {} selector is not working 
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 3.2rem;
+
+    &__right {
+        display: flex;
+        gap: 1.6rem;
+    }
+}

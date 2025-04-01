@@ -1,0 +1,14 @@
+@mixin expand-hover-area($size: 1rem) {
+    content: "";
+    position: absolute;
+    top: -#{$size};
+    left: -#{$size};
+    right: -#{$size};
+    bottom: -#{$size};
+    background: transparent;
+}
+
+@mixin primereactCenter {
+    display: flex;
+    align-items: center;
+}

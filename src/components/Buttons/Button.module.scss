@@ -1,0 +1,63 @@
+@use "../../styles/typography";
+
+.buttons {
+    cursor: pointer;
+    border: none;
+    width: auto;
+
+    &:focus { outline: none }
+}
+
+.bigButton {
+    @extend .buttons;
+    @extend .subtitle-xs;
+    color: var(--color-white);
+    min-width: 15.6rem;
+    height: 5.2rem;
+    padding: 1.6rem 4rem;
+    border-radius: .8rem;
+    background-color: var(--color-primary-def);
+    white-space: nowrap;
+
+    &:hover { background-color: var(--color-primary-dark); }
+}
+
+.mediumButton {
+    @extend .buttons;
+    @extend %subtitle-font;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--color-white);
+    min-width: 8.9rem;
+    height: 3.6rem;
+    padding: 1.1rem 1.6rem;
+    border-radius: .6rem;
+    background: var(--color-success-def);
+
+    &:hover { background-color: var(--color-success-dark); }
+}
+
+.smallButton {
+    @extend .buttons;
+    min-width: 5.6rem;
+    height: 3.6rem;
+    border-radius: .6rem;
+    background-color: var(--color-primary-def);
+    color: inherit;
+    font-family: inherit;
+    padding: 0 1.6rem;
+
+    &:hover { background-color: var(--color-primary-dark); }
+}
+
+.circleButton {
+    @extend .buttons;
+    margin: .8rem;
+    border-radius: 3.2rem;
+    padding: .8rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    background-color: transparent;
+
+    &:hover { background-color: var(--color-grey-2); }
+}

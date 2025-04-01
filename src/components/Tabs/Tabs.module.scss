@@ -1,0 +1,32 @@
+.tabs {
+    margin-top: 1.6rem;
+
+    &__buttons {
+        margin-bottom: 6.4rem;
+    }
+
+    &__buttonPrimary {
+        cursor: pointer;
+        border: none;
+        background-color: var(--color-white);
+
+        &:not(:last-child) {
+            margin-right: 6.4rem;
+        }
+    }
+
+    &__buttonUnderline {
+        cursor: pointer;
+        background-color: transparent;
+        padding-bottom: .4rem;
+        border: none;
+
+        &:not(:last-child) {
+            margin-right: 7.2rem;
+        }
+
+        &--active {
+            border-bottom: 1px solid var(--color-black);
+        }
+    }
+}

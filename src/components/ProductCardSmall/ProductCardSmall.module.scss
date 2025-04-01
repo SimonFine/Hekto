@@ -1,0 +1,37 @@
+.card {
+    width: 30.4rem;
+    height: 34.4rem;
+    border-radius: .8rem;
+    padding: 1.6rem;
+    box-shadow: .8rem 2.4rem 3.2rem -1.6rem rgba(16, 23, 80, 0.15);
+    background: var(--color-white);
+    transition: transform .5s ease;
+
+    &__img {
+        display: block;
+        width: 100%;
+        height: 23.2rem;
+        margin-bottom: 2.4rem;
+        object-fit: cover;
+    }
+
+    &__name {
+        margin-bottom: .8rem;
+    }
+
+    &__prices {
+        width: min-content;
+        margin: 0 auto;
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    &__oldPrice {
+        text-decoration: line-through;
+    }
+
+    &:hover {
+        transform: translateY(-2.4rem);
+    }
+}

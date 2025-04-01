@@ -1,0 +1,11 @@
+@use "./typography";
+
+.p-dropdown-label {
+    @extend .body-s;
+}
+
+.p-dropdown-item {
+    @extend .body-s;
+    height: 4rem;
+    padding: 1.6rem;
+}

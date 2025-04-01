@@ -1,0 +1,47 @@
+.products {
+    margin-top: 3.2rem;
+}
+
+.productsSection {
+    display: flex;
+
+    &__filters {
+        width: 16.4rem;
+    }
+
+    &__listView {
+        margin-left: auto;
+    }
+
+    &__gridView {
+        margin-left: 17.2rem;
+        display: flex;
+        flex-wrap: wrap;
+        height: min-content;
+        gap: 3.2rem;
+    }
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    width: min-content;
+    margin-left: auto;
+    margin-top: 8rem;   
+    margin-bottom: 3.2rem;
+}
+
+.pagination {
+    width: min-content;
+    margin-top: 4.8rem;
+    margin-left: auto;
+    display: flex;
+    gap: .8rem;
+}
+
+.skeletons {
+    & > * {
+        border-radius: .8rem;
+        &:not(:last-child) { margin-bottom: 3.2rem; }
+    }
+}

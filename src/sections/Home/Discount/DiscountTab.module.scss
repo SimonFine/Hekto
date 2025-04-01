@@ -1,0 +1,30 @@
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description {
+    text-align: left;
+
+    & > *:not(:last-child) { margin-bottom: 2.4rem; }
+}
+
+.features {
+    width: min-content;
+    white-space: nowrap;
+    list-style: none;
+    display: grid;
+    gap: 3.2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    & > li {
+        display: flex;
+        align-items: center;
+
+        & > img {
+            margin-right: .8rem;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.products {
+    padding: 10rem var(--left-right-padding);
+    text-align: center;
+
+    h2 { margin-bottom: 2.4rem; }
+}
+
+.productsSection {
+
+    &__list {
+        margin-top: 3.2rem;
+        margin-left: auto;
+        width: min-content;
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+    }
+}

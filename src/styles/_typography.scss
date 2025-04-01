@@ -1,0 +1,127 @@
+%heading-font {
+    font-family: var(--font-secondary);
+    color: var(--color-black);
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+%subtitle-font {
+    font-family: var(--font-secondary);
+    color: var(--color-black);
+    font-weight: 700;
+}
+
+%body-font {
+    font-family: var(--font-primary);
+    color: var(--color-black);
+    font-weight: 400;
+}
+
+%label-font {
+    font-family: var(--font-secondary);
+    color: var(--color-black);
+    font-weight: 400;
+}
+
+h1 {
+    @extend %heading-font;
+    font-size: 5.2rem;
+}
+
+h2 {
+    @extend %heading-font;
+    font-size: 4.4rem;
+}
+
+h3 {
+    @extend %heading-font;
+    font-size: 3.6rem;
+}
+
+h4 {
+    @extend %heading-font;
+    font-size: 2.8rem;
+}
+
+.subtitle-l {
+    @extend %subtitle-font;
+    font-size: 2.6rem;
+}
+
+.subtitle-m {
+    @extend %subtitle-font;
+    font-size: 2.2rem;
+
+    &--primary { color: var(--color-primary-def); }
+}
+
+.subtitle-s {
+    @extend %subtitle-font;
+    font-size: 2rem;
+
+    &--grey-3 { color: var(--color-grey-3); }
+}
+
+.subtitle-xs {
+    @extend %subtitle-font;
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    &--white { color: white; }
+}
+
+.body-l {
+    @extend %body-font;
+    font-size: 1.8rem;
+
+    &--primary { color: var(--color-primary-def); }
+
+    &--grey-3 { color: var(--color-grey-3); }
+}
+
+.body-default {
+    @extend %body-font;
+    font-size: 1.6rem;
+    
+    &--primary { color: var(--color-primary-def); }
+
+    &--grey-3 { color: var(--color-grey-3); }
+}
+
+.body-bold {
+    @extend %body-font;
+    font-weight: 700;
+    font-size: 1.6rem;
+
+    &--primary { color: var(--color-primary-def); }
+}
+
+.body-s {
+    @extend %body-font;
+    font-size: 1.4rem;
+
+    &--grey-3 { color: var(--color-grey-3); }
+}
+
+.label-default {
+    @extend %label-font;
+    font-size: 1.6rem;
+}
+
+.label-bold {
+    @extend %label-font;
+    font-size: 1.6rem;
+    font-weight: 700;
+
+    &--primary { color: var(--color-primary-def); }
+}
+
+.label-s {
+    @extend %label-font;
+    font-size: 1.4rem;
+
+    &--grey-3 { color: var(--color-grey-3); }
+
+    &--primary { color: var(--color-primary-def); }
+}

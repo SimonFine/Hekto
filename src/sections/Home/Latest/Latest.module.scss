@@ -1,0 +1,18 @@
+.latest {
+    height: 100.4rem;
+    padding: 10rem var(--left-right-padding);
+    text-align: center;
+
+    &__tab {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 4rem;
+        width: min-content;
+    }
+}
+
+.skeletons {
+    margin-top: 10.4rem;
+}

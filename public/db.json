@@ -1,0 +1,303 @@
+{
+    "products": [
+        {
+            "imgUrl": "/product_images/watches.png",
+            "name": "Watches",
+            "price": 42.0,
+            "oldPrice": 62.0,
+            "description": "A stylish and elegant wristwatch for all occasions.",
+            "descriptionLong": "This premium watch features a sleek design, durable stainless steel casing, and water resistance. Its quartz movement ensures precise timekeeping, making it a perfect companion for both formal and casual events. Ideal for professionals, athletes, and fashion enthusiasts alike, this watch seamlessly blends style and functionality. Its modern design will complement any wardrobe, from a business suit to casual wear. The band is comfortable, and the watch is lightweight yet sturdy, making it suitable for all-day wear.",
+            "additionalInfo": "The watch comes with a 2-year warranty and a 30-day return policy. Available in multiple colors, including black, silver, and gold.",
+            "moreDetails": [
+                "Water-resistant up to 50 meters",
+                "Made from high-quality stainless steel",
+                "Precision quartz movement",
+                "Elegant and minimalist design"
+            ],
+            "reviews": [
+                "Looks fantastic and keeps accurate time!",
+                "A great value for the price.",
+                "Very comfortable to wear all day."
+            ],
+            "rating": 4.0,
+            "code": "Y523201",
+            "category": "Watches"
+        },
+        {
+            "imgUrl": "/product_images/headphones.png",
+            "name": "Headphones",
+            "price": 90.0,
+            "oldPrice": 99.0,
+            "description": "High-quality noise-canceling headphones.",
+            "descriptionLong": "Experience immersive sound with these over-ear, noise-canceling headphones. Designed for comfort and long-lasting use, they provide crystal-clear audio with deep bass and crisp highs. Whether you're working, traveling, or enjoying your favorite music, these headphones deliver an exceptional listening experience. The memory foam ear cups ensure that you can enjoy your audio for hours without discomfort. Plus, the lightweight design makes it easy to carry them wherever you go.",
+            "additionalInfo": "Includes a carrying case and a 1-year warranty. Available in both black and white colors.",
+            "moreDetails": [
+                "Active noise cancellation for distraction-free listening",
+                "Soft memory foam ear cushions for comfort",
+                "Up to 30 hours of battery life",
+                "Bluetooth 5.0 for seamless connectivity"
+            ],
+            "reviews": [
+                "Sound quality is amazing, and the noise cancellation works great!",
+                "Perfect for long flights and work sessions.",
+                "Very comfortable, even after hours of use."
+            ],
+            "rating": 3,
+            "code": "Y523202",
+            "category": "Headphones"
+        },
+        {
+            "imgUrl": "/product_images/laptop.png",
+            "name": "Laptop",
+            "price": 98.0,
+            "oldPrice": 99.0,
+            "description": "Lightweight and powerful laptop for professionals.",
+            "descriptionLong": "This laptop offers exceptional performance with its powerful processor, fast SSD storage, and high-resolution display. Perfect for work, study, and entertainment. Its slim design makes it easy to take on the go, while the 14-inch display provides crisp visuals for work or play. With a long-lasting battery and quick charging capabilities, you’ll be able to work uninterrupted throughout the day. The laptop is also equipped with the latest Wi-Fi technology, ensuring that you stay connected wherever you are.",
+            "additionalInfo": "The laptop comes with a 3-year warranty and free technical support for the first year. Available in silver and black.",
+            "moreDetails": [
+                "Intel Core i7 processor with 16GB RAM",
+                "512GB SSD for fast boot and load times",
+                "14-inch Full HD display",
+                "Long battery life with fast charging support"
+            ],
+            "reviews": [
+                "Super fast and responsive!",
+                "Perfect balance of portability and power.",
+                "Great screen quality and battery life."
+            ],
+            "rating": 2,
+            "code": "Y523203",
+            "category": "Laptop"
+        },
+        {
+            "imgUrl": "/product_images/black-watches.png",
+            "name": "Black watches",
+            "price": 35.0,
+            "oldPrice": 55.0,
+            "description": "Classic black wristwatch with a timeless design.",
+            "descriptionLong": "A sophisticated black watch with a minimalist dial, leather strap, and precise quartz movement. Designed for those who appreciate elegance and simplicity, this watch is the perfect blend of style and durability. Whether dressing up for a formal event or wearing it as a daily accessory, the versatile black design matches any outfit. The leather strap ensures comfort, and the scratch-resistant glass keeps the watch looking brand new even after extended use.",
+            "additionalInfo": "The watch comes with a 1-year warranty. Available with both leather and stainless steel bands.",
+            "moreDetails": [
+                "Genuine leather strap for comfort",
+                "Water-resistant up to 30 meters",
+                "Scratch-resistant mineral glass",
+                "Classic black and silver design"
+            ],
+            "reviews": [
+                "Simple yet stylish!",
+                "Goes well with any outfit.",
+                "Great quality for the price."
+            ],
+            "rating": 4,
+            "code": "Y523204",
+            "category": "Watches"
+        },
+        {
+            "imgUrl": "/product_images/game-console.png",
+            "name": "Game console",
+            "price": 76.0,
+            "oldPrice": 89.0,
+            "description": "Next-gen gaming console with stunning graphics.",
+            "descriptionLong": "Enjoy an immersive gaming experience with cutting-edge graphics, high-speed processing, and an extensive game library. Designed for hardcore gamers and casual players alike, this console offers access to exclusive game titles, ensuring you have endless entertainment. The console supports 4K gaming with HDR, and its ultra-fast SSD ensures that games load quickly, so you can dive right into action without delay. Whether you're a casual gamer or a competitive one, this console is the ultimate choice for next-gen gaming.",
+            "additionalInfo": "Comes with a wireless controller, HDMI cable, and 1-month game subscription. Available in black and white colors.",
+            "moreDetails": [
+                "Supports 4K gaming with HDR",
+                "Ultra-fast SSD for quick load times",
+                "Wireless controller with haptic feedback",
+                "Access to exclusive game titles"
+            ],
+            "reviews": [
+                "Absolutely love the graphics!",
+                "Games load so much faster compared to my old console.",
+                "A must-have for any gamer!"
+            ],
+            "rating": 4.0,
+            "code": "Y523205",
+            "category": "Game Console"
+        },
+        {
+            "imgUrl": "/product_images/shoes.png",
+            "name": "Shoes",
+            "price": 57.0,
+            "oldPrice": 75.0,
+            "description": "Stylish and comfortable running shoes.",
+            "descriptionLong": "Designed for comfort and performance, these running shoes feature a breathable mesh upper, cushioned sole, and durable rubber outsole for traction. Whether you’re hitting the pavement for a run or just need a comfortable pair of shoes for everyday use, these shoes provide support and stability. The mesh upper allows your feet to breathe, while the cushioned sole absorbs shock and reduces the impact on your joints during exercise. These shoes are a great choice for active individuals who want both comfort and style.",
+            "additionalInfo": "Available in multiple colors and sizes. Comes with a 1-year warranty.",
+            "moreDetails": [
+                "Lightweight and breathable",
+                "Shock-absorbing midsole for comfort",
+                "Durable outsole for long-lasting wear",
+                "Perfect for running, training, or casual use"
+            ],
+            "reviews": [
+                "Super comfortable and stylish!",
+                "Perfect for long runs.",
+                "Great grip and support."
+            ],
+            "rating": 4.0,
+            "code": "Y523206",
+            "category": "Clothe"
+        },
+        {
+            "imgUrl": "/product_images/perfume.png",
+            "name": "Perfume",
+            "price": 19.0,
+            "oldPrice": 29.0,
+            "description": "Long-lasting fragrance with a unique blend.",
+            "descriptionLong": "This luxurious perfume features a sophisticated blend of floral and woody notes, creating a captivating and long-lasting scent.",
+            "additionalInfo": "Comes in a 100ml elegant glass bottle. Available in floral, citrus, and musky variants.",
+            "moreDetails": [
+                "Top notes of citrus and jasmine",
+                "Base notes of musk and sandalwood",
+                "Long-lasting fragrance",
+                "Elegant bottle design"
+            ],
+            "reviews": [
+                "Smells amazing and lasts all day!",
+                "Perfect for any occasion.",
+                "Not overpowering, just right!"
+            ],
+            "rating": 4.0,
+            "code": "Y523207",
+            "category": "Perfume"
+        },
+        {
+            "imgUrl": "/product_images/present-box.png",
+            "name": "Present box",
+            "price": 12.0,
+            "oldPrice": 29.0,
+            "description": "Beautiful gift box for special occasions.",
+            "descriptionLong": "A premium gift box designed to make any present extra special. Crafted from high-quality materials with a stunning ribbon finish.",
+            "additionalInfo": "Available in multiple colors and sizes. Eco-friendly and reusable.",
+            "moreDetails": [
+                "Elegant and sturdy design",
+                "Perfect for birthdays, anniversaries, and holidays",
+                "Available in multiple colors and sizes",
+                "Eco-friendly and reusable"
+            ],
+            "reviews": [
+                "Beautifully made!",
+                "Great quality and design.",
+                "Perfect for making gifts look extra special."
+            ],
+            "rating": 4.0,
+            "code": "Y523208",
+            "category": "Jewellery"
+        },
+        {
+            "imgUrl": "/product_images/bracelet.png",
+            "name": "Bracelet",
+            "price": 67.0,
+            "oldPrice": 76.0,
+            "description": "Elegant bracelet with a timeless design.",
+            "descriptionLong": "A delicate and stylish bracelet made from premium materials, perfect for everyday wear or special occasions.",
+            "additionalInfo": "Made from premium sterling silver. Comes in an elegant gift box.",
+            "moreDetails": [
+                "Made from high-quality sterling silver",
+                "Adjustable clasp for a perfect fit",
+                "Lightweight and comfortable",
+                "A great gift option"
+            ],
+            "reviews": [
+                "Very elegant and classy!",
+                "Love the minimalist design.",
+                "Perfect fit and great quality."
+            ],
+            "rating": 1.0,
+            "code": "Y523209",
+            "category": "Jewellery"
+        },
+        {
+            "imgUrl": "/product_images/ring.png",
+            "name": "Ring",
+            "price": 56.0,
+            "oldPrice": 65.0,
+            "description": "Beautiful ring with intricate detailing.",
+            "descriptionLong": "A finely crafted ring featuring an elegant design with high-quality materials, suitable for all occasions.",
+            "additionalInfo": "Available in multiple sizes. Comes in a luxurious gift box.",
+            "moreDetails": [
+                "Available in multiple sizes",
+                "Made from premium sterling silver",
+                "Elegant and timeless design",
+                "Perfect for engagements or everyday wear"
+            ],
+            "reviews": [
+                "Absolutely stunning!",
+                "Great quality and craftsmanship.",
+                "Love the shine and detail!"
+            ],
+            "rating": 5.0,
+            "code": "Y523210",
+            "category": "Jewellery"
+        },
+        {
+            "imgUrl": "/product_images/all-in-one-computer.png",
+            "name": "All-in-One Computer",
+            "price": 120.0,
+            "oldPrice": 150.0,
+            "description": "Sleek and powerful all-in-one computer.",
+            "descriptionLong": "This all-in-one computer features a stunning high-resolution display, a powerful processor, and ample storage. Perfect for work, study, and entertainment, it delivers an efficient and clutter-free workspace with all components integrated into the display.",
+            "additionalInfo": "Includes a wireless keyboard and mouse. Available in silver and black.",
+            "moreDetails": [
+                "27-inch Full HD touchscreen display",
+                "Intel Core i9 processor with 32GB RAM",
+                "1TB SSD for lightning-fast performance",
+                "Minimalist and space-saving design"
+            ],
+            "reviews": [
+                "Fantastic display and performance!",
+                "Perfect for my home office setup.",
+                "Super quiet and powerful."
+            ],
+            "rating": 2.0,
+            "code": "Y523211",
+            "category": "Laptop"
+        },
+        {
+            "imgUrl": "/product_images/console-white.png",
+            "name": "White Game Console",
+            "price": 79.0,
+            "oldPrice": 99.0,
+            "description": "Next-gen gaming console in a sleek white design.",
+            "descriptionLong": "Enjoy immersive gaming with this stylish white edition of our next-gen console. Featuring powerful hardware, smooth gameplay, and an extensive game library, this console is perfect for gamers of all levels.",
+            "additionalInfo": "Comes with a white wireless controller and an HDMI cable.",
+            "moreDetails": [
+                "Supports 4K Ultra HD gaming",
+                "Ultra-fast SSD for quick game loading",
+                "Haptic feedback and adaptive triggers",
+                "Exclusive access to next-gen titles"
+            ],
+            "reviews": [
+                "Looks amazing and plays flawlessly!",
+                "Fast load times and great controller feel.",
+                "Best console I’ve ever owned!"
+            ],
+            "rating": 5.0,
+            "code": "Y523212",
+            "category": "Game Console"
+        },
+        {
+            "imgUrl": "/product_images/silver-watch.png",
+            "name": "Silver Watch",
+            "price": 49.0,
+            "oldPrice": 70.0,
+            "description": "Elegant silver wristwatch for any occasion.",
+            "descriptionLong": "This stylish silver watch blends classic aesthetics with modern craftsmanship. Featuring a stainless steel body, water resistance, and precision quartz movement, it’s perfect for both casual and formal wear.",
+            "additionalInfo": "Comes with a 2-year warranty. Available in silver, gold, and rose gold.",
+            "moreDetails": [
+                "Scratch-resistant sapphire crystal",
+                "Water-resistant up to 50 meters",
+                "Classic stainless steel band",
+                "Timeless and sophisticated design"
+            ],
+            "reviews": [
+                "Looks absolutely stunning!",
+                "Very durable and well-made.",
+                "Great value for the price."
+            ],
+            "rating": 4.0,
+            "code": "Y523213",
+            "category": "Watches"
+        }        
+    ]
+}

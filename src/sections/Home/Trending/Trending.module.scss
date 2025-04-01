@@ -1,0 +1,15 @@
+.trending {
+    padding: 10rem var(--left-right-padding);
+    margin: 0 auto;
+    text-align: center;
+
+    & > h2 { margin-bottom: 7.2rem; }
+
+}
+
+.cards {
+    display: flex;
+    gap: 3.2rem;
+    width: min-content;
+    margin: 0 auto;
+}
