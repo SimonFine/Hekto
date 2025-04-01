@@ -21,15 +21,19 @@
     }
 
     &__button {
-        @extend .label-default;
 
-        a { text-decoration: none };
-        
-        &-active {
-            color: var(--color-primary-def);
+        &-inactive {
+            @extend .label-default;
             text-decoration: none;
         }
+        
+        &-active {
+            @extend .label-default;
+            text-decoration: none;
+            color: var(--color-primary-def) !important;
+        }
     }
+        
 
     &__button:not(:last-child) { margin-right: 3.2rem; } 
 }

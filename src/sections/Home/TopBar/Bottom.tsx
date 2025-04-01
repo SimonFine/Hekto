@@ -8,13 +8,13 @@ const Bottom: React.FC = () => {
             <nav className={styles.nav}>
                 <img src="/assets/icons/icon-logo.svg" alt="logo-icon" className={styles.nav__logo}/>
                 <ul className={styles.nav__buttons}>
-                    <li className={styles.nav__button}>
-                        <NavLink to="/" className={({ isActive }) => `${isActive ? styles['nav__button-active'] : undefined} nav__button`}>
+                <li className={styles.nav__button}>
+                    <NavLink to="/" className={({ isActive }) => `${isActive ? styles['nav__button-active'] : styles['nav__button-inactive']}`}>
                             Home
                         </NavLink>
                     </li>
                     <li className={styles.nav__button}>
-                        <NavLink to="/products" className={({ isActive }) => `${isActive ? styles['nav__button-active'] : undefined} nav__button`}>
+                        <NavLink to="/products" className={({ isActive }) => `${isActive ? styles['nav__button-active'] : styles['nav__button-inactive']}`}>
                             Products
                         </NavLink>
                     </li>
