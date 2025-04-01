@@ -15,7 +15,7 @@ const Top: React.FC = () => {
                     <img src="/assets/icons/icon-mail.svg" alt="mail-icon" className={styles.contact__icon}/>
                     <span className="subtitle-xs subtitle-xs--white">mhhasanul@gmail.com</span>
                 </li>
-                <li>
+                <li className={styles.contact__element}>
                     <img src="/assets/icons/icon-phone.svg" alt="phone-icon" className={styles.contact__icon}/>
                     <span className="subtitle-xs subtitle-xs--white">(12345)67890</span>
                 </li>
