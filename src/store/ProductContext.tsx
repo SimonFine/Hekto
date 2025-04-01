@@ -30,7 +30,7 @@ const ProductContextProvider: React.FC<{ children: ReactNode }> = ({ children })
                 throw new Error('Failed to fetch products');
             }
 
-            setProductData(resData);
+            setProductData(resData.products);
 
         } catch (err) {
             setError('Error fetching products data');
