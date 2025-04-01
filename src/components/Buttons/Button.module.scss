@@ -54,10 +54,14 @@
     @extend .buttons;
     margin: .8rem;
     border-radius: 3.2rem;
-    padding: .8rem;
     width: 3.2rem;
     height: 3.2rem;
     background-color: transparent;
+
+    & > img {
+        display: block;
+        margin: 0 auto;
+    }
 
     &:hover { background-color: var(--color-grey-2); }
 }
