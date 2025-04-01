@@ -23,7 +23,7 @@ const ProductContextProvider: React.FC<{ children: ReactNode }> = ({ children })
   useEffect(() => {
     (async () => {
         try {
-            const response = await fetch('http://localhost:5000/products')
+            const response = await fetch('https://superlative-elf-5b80fd.netlify.app/db.json')
             const resData = await response.json();
 
             if (!response.ok) {
